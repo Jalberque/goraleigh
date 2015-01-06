@@ -1,0 +1,25 @@
+<ion-view title="Route">
+  <ion-content>
+  <div class="list card">
+	  <div class="item">
+	  	<h2>{{route.long_name}}</h2>
+	  </div>
+<leaflet tiles="tiles" center="center" height="200px"></leaflet>
+
+
+
+
+	  <div class="card">
+		  <div class="item item-divider">
+		    Stops on Route
+		  </div>	  
+
+		  {{vehicles[0].speed}}/{{vehicles[0].heading}}
+	  <div class="item item-body" ng-repeat="stop in stops" ng-click="stopClicked()">
+	  	<p>{{stop.name}}</p>
+	  </div> 
+		</div>
+  </div>
+  </ion-content>
+
+</ion-view>

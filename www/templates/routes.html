@@ -1,0 +1,13 @@
+<ion-view title="Routes">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content>
+    <ion-list>
+      <ion-item
+       ng-repeat="route in routes | orderBy: 'long_name'" href="#/app/routes/{{route.long_name}}">
+        {{route.long_name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

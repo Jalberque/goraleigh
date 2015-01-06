@@ -1,0 +1,33 @@
+/* Empty. Add your own CSS if you like */
+.bar.bar-stable  {
+	background-color: #d1291c;
+}
+
+.bar.bar-stable .title {
+  color: #fff; }
+
+
+  .bar-stable .button {
+  border-color: #b2b2b2;
+  background-color: #f8f8f8;
+  color: #fff; }
+  .bar-stable .button:hover {
+    color: #fff;
+    text-decoration: none; }
+  .bar-stable .button.active, .bar-stable .button.activated {
+    border-color: #a2a2a2;
+    background-color: #e5e5e5;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.15); }
+  .bar-stable .button.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #fff;
+    font-size: 17px; }
+  .bar-stable .button.button-icon {
+    border-color: transparent;
+    background: none; }
+
+  .leaflet-control-zoom {
+    display: none;
+  }

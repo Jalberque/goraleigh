@@ -1,0 +1,2 @@
+# goraleigh
+requires node, ionic
